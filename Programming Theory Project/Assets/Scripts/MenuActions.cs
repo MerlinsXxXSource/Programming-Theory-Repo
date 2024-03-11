@@ -10,6 +10,12 @@ public class MenuActions : MonoBehaviour
         SceneManager.LoadScene("Main");
     }
 
+    public void MainMenu()
+    {
+        // Replace "MainScene" with the name of your main menu scene
+        SceneManager.LoadScene("Menu");
+    }
+
     // Call this method when the Quit button is clicked
     public void QuitGame()
     {
